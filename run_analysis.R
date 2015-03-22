@@ -94,4 +94,4 @@ tidyData    = aggregate(finalDataNoActivityType[,names(finalDataNoActivityType) 
 tidyData    = merge(tidyData,activityType,by='activityId',all.x=TRUE);
 
 # Export the tidyData set 
-write.table(tidyData, 'C:/Users/Ripudaman/Downloads/Study/CourseEra/3_Getting_and_Cleaning_data/Week_3/UCI HAR Dataset/tidyData.txt',row.names=TRUE,sep='\t');
+write.table(tidyData, 'C:/Users/Ripudaman/Downloads/Study/CourseEra/3_Getting_and_Cleaning_data/Week_3/UCI HAR Dataset/tidyData.txt',row.names=FALSE,sep='\t');
